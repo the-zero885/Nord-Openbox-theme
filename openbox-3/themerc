@@ -1,0 +1,135 @@
+# Nord Openbox theme
+# Inspired by horst3180's Arc GTK theme & Nord color palette by Arctic Ice Studio
+# https://github.com/arcticicestudio/nord
+
+### WINDOW
+border.width: 2
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 9
+padding.height: 6 
+
+
+window.active.border.color: #7b99b7
+window.inactive.border.color: #7b99b7
+window.active.title.separator.color: #2e3440
+window.inactive.title.separator.color: #2e3440
+window.active.client.color: #2d3036
+window.inactive.client.color: #2d3036
+
+window.active.label.text.color: #cdd3dd
+window.inactive.label.text.color: #cdd3dd
+
+# Iconify button
+window.active.button.iconify.unpressed.image.color: #dfc184
+window.active.button.iconify.hover.image.color: #dfc184
+
+# Max button
+window.active.button.max.unpressed.image.color: #a3be8c
+window.active.button.max.hover.image.color: #a3be8c
+window.active.button.max.toggled.unpressed.image.color: #a3be8c
+window.active.button.max.toggled.hover.image.color: #a3be8c
+
+# Desk button
+window.active.button.desk.unpressed.image.color: #7b99b7
+window.active.button.desk.hover.image.color: #7b99b7
+
+# Shade button colors
+window.active.button.shade.unpressed.image.color: #ab87a4
+window.active.button.shade.hover.image.color: #ab87a4
+
+# Close button colors
+window.active.button.close.unpressed.image.color:#bf616a
+window.active.button.close.hover.image.color:#bf616a
+
+# Inactive button colors
+window.inactive.button.*.image.color: #4c566a
+
+# All buttons
+window.active.button.*.pressed.image.color: #81b6c6
+window.active.button.*.disabled.image.color: #3b4252
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #3b4252
+window.active.label.bg: flat solid
+window.active.label.bg.color: #3b4252
+#window.active.handle.bg: texture
+#window.active.grip.bg: texture
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #3b4252
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #3b4252
+#window.inactive.handle.bg: texture
+#window.inactive.grip.bg: texture
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: center
+
+#window.active.label.text.font: text shadow
+#window.inactive.label.text.font: text shadow
+
+### MENU
+menu.border.width: 2
+menu.separator.width: 2
+menu.separator.padding.width: 10
+menu.separator.padding.height: 5
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+menu.border.color: #2e3440
+menu.separator.color: #cdd3dd
+
+menu.title.text.color: #D3DAE3
+menu.items.text.color: #cdd3dd
+menu.items.disabled.text.color: #485265
+menu.items.active.text.color: #ffffff
+menu.items.active.disabled.text.color: #aeb0b6
+
+menu.items.bg: flat solid
+menu.items.bg.color: #3b4252
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #7b99b7
+menu.title.bg: flat solid
+menu.title.bg.color: #3b4252
+
+menu.title.text.justify: center
+
+#menu.items.font: text shadow
+#menu.title.text.font: text shadow
+
+### OSD
+osd.border.width: 4
+
+osd.border.color: #3b4252
+
+osd.label.text.color: #cdd3dd
+
+osd.bg: flat solid
+osd.bg.color: #3b4252
+osd.label.bg: flat solid
+osd.label.bg.color: #3b4252
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #7b99b7
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #000000
+
+#osd.label.text.font: text shadow
